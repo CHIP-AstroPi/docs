@@ -37,15 +37,15 @@ We'll run the parsing process on historic satellite imagery and use the obtained
 Our program will run various classification and detection algorithms on the captured images.
 Some example of algorithm we expect to apply on near-infrared imagery:
 
-|            Algorithm | "Element" detected  | References                |
-| -------------------: | :-----------------: | ------------------------- |
+|            Algorithm | "Element" detected  | References |
+| -------------------: | :-----------------: | ---------- |
 |                 NDVI | forests and deserts |
 |                 NDWI |  rivers and lakes   |
-| Coastlines detection |     coastlines      | [10.15244/pjoes/64160][1] |
+| Coastlines detection |     coastlines      | [1](#p1)   |
 
 If no IR historic dataset can be found we'll detect elements with custom ML models.
 
 ## 3. Expected results
 
 ## 4. References
-[1]: [Maras, Erdem & Caniberk, Mustafa & Maras, Hadi. (2016). Automatic Coastline Detection Using Image Enhancement and Segmentation Algorithms. Polish Journal of Environmental Studies.](https://www.researchgate.net/publication/308125872_Automatic_Coastline_Detection_Using_Image_Enhancement_and_Segmentation_Algorithms)
+<p id="r1">[1]: [Maras, Erdem & Caniberk, Mustafa & Maras, Hadi. (2016). Automatic Coastline Detection Using Image Enhancement and Segmentation Algorithms. Polish Journal of Environmental Studies.]: (https://www.researchgate.net/publication/308125872_Automatic_Coastline_Detection_Using_Image_Enhancement_and_Segmentation_Algorithms)</p>

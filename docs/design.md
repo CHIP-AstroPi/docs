@@ -10,7 +10,11 @@
 - [3.  Expected results](#3-expected-results)
 
 ## 1. Introduction
- Global warming is the main actor of many environmental disasters, such as sea-level rise, frequent wildfires resulting in heavy deforestation, drought and desertification, glacier retreat, etc.
+Global warming is the main actor of many environmental disasters, such as sea-level rise, frequent wildfires resulting in heavy deforestation, drought and desertification, glacier retreat, etc.
+
+We'll analyze the pysical effects that such disasters had in the past over the environmet and compare them with the change in global temperature over the years.
+
+The final objective is to create an algorithm able to predict the impact that various scenarios of global heating will have to the environment.
  
  
  

@@ -48,4 +48,4 @@ If no IR historic dataset can be found we'll detect elements with custom ML mode
 ## 3. Expected results
 
 ## 4. References
-<p id="r1">[1]: [Maras, Erdem & Caniberk, Mustafa & Maras, Hadi. (2016). Automatic Coastline Detection Using Image Enhancement and Segmentation Algorithms. Polish Journal of Environmental Studies.]: (https://www.researchgate.net/publication/308125872_Automatic_Coastline_Detection_Using_Image_Enhancement_and_Segmentation_Algorithms)</p>
+<p id="r1">[1]: <a href="https://www.researchgate.net/publication/308125872_Automatic_Coastline_Detection_Using_Image_Enhancement_and_Segmentation_Algorithms" target="_blank">[Maras, Erdem & Caniberk, Mustafa & Maras, Hadi. (2016). Automatic Coastline Detection Using Image Enhancement and Segmentation Algorithms. Polish Journal of Environmental Studies.]</a></p>

@@ -8,7 +8,8 @@
   - [2.1. Real-time elaboration](#21-real-time-elaboration)
   - [2.2. Post-Izzy elaboration](#22-post-izzy-elaboration)
   - [2.3. Satellite imagery parsing](#23-satellite-imagery-parsing)
-- [3.  Expected results](#3-expected-results)
+- [3. Expected results](#3-expected-results)
+- [4. References](#4-references)
 
 ## 1. Introduction
 Global warming is the main actor of many environmental disasters, such as sea-level rise, frequent wildfires resulting in heavy deforestation, drought and desertification, glacier retreat, etc.
@@ -22,7 +23,7 @@ The technical procedure is made of two phases:
 - Real-time elaboration, on the "Izzy" pc
 - Post-Izzy elaboration
 
-> Graphic representation of the tasks separation
+> Graphic representation of the tasks separation<br>
 ![](./img/tasks_separation.png)
 
 
@@ -34,9 +35,17 @@ We'll run the parsing process on historic satellite imagery and use the obtained
 
 ### 2.3. Satellite imagery parsing
 Our program will run various classification and detection algorithms on the captured images.
-Some example of algorithm we expect to apply are:
-- NDVI
-- NDWI
-- Coastlines detection
+Some example of algorithm we expect to apply on near-infrared imagery:
 
-## 3.  Expected results
+|            Algorithm | "Element" detected  | References |
+| -------------------: | :-----------------: | ---------- |
+|                 NDVI | forests and deserts |
+|                 NDWI |  rivers and lakes   |
+| Coastlines detection |     coastlines      | [1]        |
+
+If no IR historic dataset can be found we'll detect elements with custom ML models.
+
+## 3. Expected results
+
+## 4. References
+[1]: [Maras, Erdem & Caniberk, Mustafa & Maras, Hadi. (2016). Automatic Coastline Detection Using Image Enhancement and Segmentation Algorithms. Polish Journal of Environmental Studies. 25. 10.15244/pjoes/64160.](https://www.researchgate.net/publication/308125872_Automatic_Coastline_Detection_Using_Image_Enhancement_and_Segmentation_Algorithms)

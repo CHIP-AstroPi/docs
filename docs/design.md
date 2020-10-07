@@ -20,7 +20,7 @@ The final objective is to create an algorithm able to predict the impact that va
  
 ## 2. Technical
 The technical procedure is made of two phases: 
-- Real-time elaboration, on the "Izzy" pc
+- Real-time elaboration, on the Izzy pc
 - Post-Izzy elaboration
 
 > Graphic representation of the tasks separation<br>
@@ -31,7 +31,7 @@ The technical procedure is made of two phases:
 We'll collect data mainly from the near-infrared camera. We plan to [parse](#23-satellite-imagery-parsing) in real-time the collected imagery and store them with the extracted data.
 
 ### 2.2. Post-Izzy elaboration
-We'll run the parsing process on historic satellite imagery and use the obtained data, with the ones coming from the "Izzy" real-time elaboration, to elaborate a statistic model able to "predict" the future impact.
+We'll run the parsing process on historic satellite imagery and use the obtained data, with the ones coming from the Izzy real-time elaboration, to elaborate a statistic model able to "predict" the future impact.
 
 ### 2.3. Satellite imagery parsing
 Our program will run various classification and detection algorithms on the captured images. We intend to detect as many elements as we can, starting from a few mandatory ones:
@@ -56,6 +56,12 @@ Some example of algorithm we expect to apply on near-infrared imagery:
 If no IR historic dataset can be found we'll detect elements with custom ML models.
 
 ## 3. Expected results
+The project aims to follow two main objectives: the first one being the sensibilization towards the risks derivating from increasing global heating, while the second one being the confirmation of already existent data as an academic exercise.
+
+To pursue the first objective we'll use the "future prediction" algorithm, as it should become representative and impactful for non-technician. 
+As for the second objective, we are genuinely interested in verifying if such an immature method could actually produce accurate data.
+
+Last but not least, we're looking forward to the big learning experience that this project should be.
 
 ## 4. References
 <p id="r1">[1]: <a href="https://www.researchgate.net/publication/308125872_Automatic_Coastline_Detection_Using_Image_Enhancement_and_Segmentation_Algorithms" target="_blank">[Maras, Erdem & Caniberk, Mustafa & Maras, Hadi. (2016). Automatic Coastline Detection Using Image Enhancement and Segmentation Algorithms. Polish Journal of Environmental Studies.]</a></p>

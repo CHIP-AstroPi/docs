@@ -22,11 +22,21 @@ The technical procedure is made of two phases:
 - Real-time elaboration, on the "Izzy" pc
 - Post-Izzy elaboration
 
-> <small>Graphic representation of the tasks separation<small>
+> Graphic representation of the tasks separation
 ![](./img/tasks_separation.png)
 
 
 ### 2.1. Real-time elaboration
+We'll collect data mainly from the near-infrared camera. We plan to [parse](#23-satellite-imagery-parsing) in real-time the collected imagery and store them with the extracted data.
+
 ### 2.2. Post-Izzy elaboration
+We'll run the parsing process on historic satellite imagery and use the obtained data, with the ones coming from the "Izzy" real-time elaboration, to elaborate a statistic model able to "predict" the future impact.
+
 ### 2.3. Satellite imagery parsing
+Our program will run various classification and detection algorithms on the captured images.
+Some example of algorithm we expect to apply are:
+- NDVI
+- NDWI
+- Coastlines detection
+
 ## 3.  Expected results

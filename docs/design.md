@@ -41,7 +41,7 @@ Some example of algorithm we expect to apply on near-infrared imagery:
 | -------------------: | :-----------------: | ---------- |
 |                 NDVI | forests and deserts |
 |                 NDWI |  rivers and lakes   |
-| Coastlines detection |     coastlines      | [1](#p1)   |
+| Coastlines detection |     coastlines      | [1](#r1)   |
 
 If no IR historic dataset can be found we'll detect elements with custom ML models.
 

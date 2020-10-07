@@ -34,14 +34,24 @@ We'll collect data mainly from the near-infrared camera. We plan to [parse](#23-
 We'll run the parsing process on historic satellite imagery and use the obtained data, with the ones coming from the "Izzy" real-time elaboration, to elaborate a statistic model able to "predict" the future impact.
 
 ### 2.3. Satellite imagery parsing
-Our program will run various classification and detection algorithms on the captured images.
+Our program will run various classification and detection algorithms on the captured images. We intend to detect as many elements as we can, starting from a few mandatory ones:
+- Vegetation, _hence_
+  - Desertification
+  - Forests
+- Water, _hence_
+  - Lakes
+  - Rivers
+  - Glaciers
+- Coastlines, _hence_
+  - Sea level
+
 Some example of algorithm we expect to apply on near-infrared imagery:
 
-|            Algorithm | "Element" detected  | References |
-| -------------------: | :-----------------: | ---------- |
-|                 NDVI | forests and deserts |
-|                 NDWI |  rivers and lakes   |
-| Coastlines detection |     coastlines      | [1](#r1)   |
+|            Algorithm | Elements detected | References |
+| -------------------: | :---------------: | ---------- |
+|                 NDVI |    Vegetation     |
+|                 NDWI |       Water       |
+| Coastlines detection |    Coastlines     | [1](#r1)   |
 
 If no IR historic dataset can be found we'll detect elements with custom ML models.
 

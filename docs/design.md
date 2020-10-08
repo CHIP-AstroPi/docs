@@ -1,7 +1,8 @@
 [**Astropi**](https://astro-pi.org/) Phase 1: Design
 
 <!-- omit in toc -->
-# /* NOME TEAM */  
+# CHIP
+> Chip: Human Impact Detection 
 
 - [1. Introduction](#1-introduction)
 - [2. Technical](#2-technical)

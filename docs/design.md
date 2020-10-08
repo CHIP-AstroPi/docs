@@ -2,7 +2,7 @@
 
 <!-- omit in toc -->
 # CHIP
-> **C**hip: **H**uman **I**mpact **D**etection 
+> **C**hip: **H**uman **I**mpact **P**revision 
 
 - [1. Introduction](#1-introduction)
 - [2. Technical](#2-technical)

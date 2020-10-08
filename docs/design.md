@@ -2,7 +2,7 @@
 
 <!-- omit in toc -->
 # CHIP
-> Chip: Human Impact Detection 
+> **C**hip: **H**uman **I**mpact **D**etection 
 
 - [1. Introduction](#1-introduction)
 - [2. Technical](#2-technical)

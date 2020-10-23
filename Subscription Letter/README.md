@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Astro Pi subscription: CHIP Team
 
 
@@ -41,3 +42,7 @@ Sensor we will use to collect data:
 - Izzy camera with blue filter
 
 - Magnetometer
+=======
+# Our subscription Letter
+
+>>>>>>> c0ae289fe29df0ad259c176e87bde2bedc9e029b
